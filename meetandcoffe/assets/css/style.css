@@ -134,6 +134,10 @@ nav ul li {
     vertical-align: middle;
 }
 
+content {
+    text-align: left;
+}
+
 .icono {
     width: 2rem;
 }
