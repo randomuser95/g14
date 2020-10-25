@@ -1,0 +1,38 @@
+body{
+    background-color: #000000;
+    color: #ffffff
+}
+
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.hero-section{
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc-section{
+    text-align: left;
+}
+
+.icons-section, footer {
+    background-color: #1e1a13;
+    color: #ffffff;
+    opacity: 98%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}

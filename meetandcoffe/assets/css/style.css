@@ -34,6 +34,27 @@ h5 {
     font-size: 1.25em;
 }
 
+header, .title {
+    font-weight: 800;
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: 3rem;
+}
+
+main h2{
+    font-weight: 800;
+    margin-top: 1.5rem;
+    margin-bottom: 2.25rem;
+}
+
+main p{
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    opacity: 1;
+}
+
 .subtitulo, h4, h5 {
     font-weight: 400;
 }
@@ -122,6 +143,7 @@ nav {
     padding: 1.25rem 4rem;
     position: fixed;
     width: 100vw;
+    margin-bottom: 2rem;
 }
 
 nav ul {
@@ -134,8 +156,11 @@ nav ul li {
     vertical-align: middle;
 }
 
-content {
+.content {
     text-align: left;
+    padding: 6.25rem 3.125rem;
+    margin-left: 14rem;
+    margin-right: 14rem; 
 }
 
 .icono {
@@ -148,4 +173,9 @@ content {
 
 footer i {
     margin: 0 0.25em 0.5em 0.25em;
+}
+
+.img-post {
+    width: 100%;
+    margin: 4.6rem 0;
 }
