@@ -34,7 +34,7 @@ h5 {
     font-size: 1.25em;
 }
 
-header, .title {
+.title {
     font-weight: 800;
     text-align: left;
     font-size: 0.8em;
@@ -173,6 +173,7 @@ nav ul li {
 
 footer i {
     margin: 0 0.25em 0.5em 0.25em;
+    color: #ffffff;
 }
 
 .img-post {
