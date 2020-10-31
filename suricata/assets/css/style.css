@@ -1,0 +1,15 @@
+.bg-magenta{
+    background-color: #E83E8C;
+}
+body{
+    font-family: 'Open Sans';
+}
+h1{
+    color: #707070;
+}
+.bg-teal{
+    background-color: #17A2B8;
+}
+*{
+    box-sizing: border-box;
+}
