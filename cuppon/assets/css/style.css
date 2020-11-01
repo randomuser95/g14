@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.bg-green{
+    background-color: #28A745;
+}
+.text-300{
+    font-weight: 300;
+}
+h5{
+    color: #212529;
+}
+.text-muted{
+    color: #707070;
+}
+.card-text{
+    font-size: 0.81em;
+}
+.text-green{
+    color: #28A745;
+    font-weight: 500;
+}
