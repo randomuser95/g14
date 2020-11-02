@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.bg-green{
+.bg-success{
     background-color: #28A745;
 }
 .text-300{
@@ -16,7 +16,7 @@ h5{
 .card-text{
     font-size: 0.81em;
 }
-.text-green{
+.text-success{
     color: #28A745;
     font-weight: 500;
 }
