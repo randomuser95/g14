@@ -9,6 +9,6 @@ $(function () {
   $(".underline").on("dblclick", function(){
       $(this).addClass("red")
   })
-  $('.card').on('click', function(){
-      $('.card-text').toggle()
+  $('.receipe').on('click', function(){
+      $('.receipe-text').toggle()
   })
