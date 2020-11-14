@@ -1,13 +1,23 @@
-.Oswald{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2.5em;
-}
-.Open-Sans{
+.title-nav{
     font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
 }
-.Sans-serif{
-    font-family: sans-serif;
+.title1-herosec{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
 }
-.Helvetica{
-    font-family: Helvetica;
+.title2-herosec{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+.subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    line-height: 2;
+}
+.about-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2;
 }
