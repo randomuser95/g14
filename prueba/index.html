@@ -16,11 +16,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Oswald:wght@200;300;700&display=swap"
         rel="stylesheet">
 
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/011c7efaff.js" crossorigin="anonymous"></script>
+
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
 
 <body>
+    <!--Barra de Navegación-->
     <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-info">
         <div class="container">
             <a class="navbar-brand title-nav py-0" href="#">E</a>
@@ -30,27 +34,29 @@
             </button>
             <div class="collapse navbar-collapse Helvetica" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto text-white cabin">
-                    <a class="nav-link active" href="#about">Sobre mi</a>
-                    <a class="nav-link" href="#">Experiencia</a>
-                    <a class="nav-link" href="#">Trabajos</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link active" href="about">Sobre mi</a>
+                    <a class="nav-link" href="experience">Experiencia</a>
+                    <a class="nav-link" href="past-works">Trabajos</a>
+                    <a class="nav-link" href="contact">Contacto</a>
                 </div>
             </div>
         </div>
     </nav>
+    <!--Titular de la pagina-->
     <header>
         <div class="card text-white text-center m-auto">
-            <img src="assets/img/bg_hero.jpg" class="card-img" alt="Foto estefania">
+            <img src="assets/img/bg_hero.jpg" class="image-herosec" alt="Foto estefania">
             <div class="card-img-overlay d-flex align-items-end">
                 <div class="mx-auto">
-                    <h1 class="card-title mx-auto display-4 title1-herosec">YO SOY</h1>
-                    <hr class="mt-3 mb-3 font-weight-bold bg-white" />
-                    <h2 class="card-title mx-auto display-3 title2-herosec">ESTEFANÍA</h2>
+                    <h1 class="card-sm-title mx-auto display-4 title1-herosec">YO SOY</h1>
+                    <hr class="font-weight-bold bg-white" />
+                    <h2 class="card-sm-title mx-auto display-3 title2-herosec">ESTEFANÍA</h2>
                 </div>
             </div>
         </div>
     </header>
-    <section id="about" class=" container">
+    <!--Sobre Mi-->
+    <section id="about" class="container d-none d-sm-block">
         <div class="row">
             <div class="col pt-5 mt-5 pb-2">
                 <h3 class="subtitle text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
@@ -58,23 +64,135 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="card border-0">
-                    <div class="card-body about-text">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aliquid? Sed perferendis non repudiandae nesciunt, quibusdam ratione harum quasi quia fugit! Eaque necessitatibus repellat explicabo minima facilis soluta molestias nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod dolorum eos autem! Alias, fuga. Explicabo ratione asperiores soluta ut aut cumque vero placeat, sapiente, praesentium reiciendis beatae ad accusantium. </p>
+                    <div class="card-body text-about">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aliquid?
+                            Sed perferendis non repudiandae nesciunt, quibusdam ratione harum quasi quia fugit! Eaque
+                            necessitatibus repellat explicabo minima facilis soluta molestias nesciunt. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Consequuntur quod dolorum eos autem! Alias,
+                            fuga. Explicabo ratione asperiores soluta ut aut cumque vero placeat, sapiente, praesentium
+                            reiciendis beatae ad accusantium. </p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-sm-6">
                 <div class="card border-0">
-                    <div class="card-body about-text">
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aliquid? Sed perferendis non repudiandae nesciunt, quibusdam ratione harum quasi quia fugit! Eaque necessitatibus repellat explicabo minima facilis soluta molestias nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod dolorum eos autem! Alias, fuga. Explicabo ratione asperiores soluta ut aut cumque vero placeat, sapiente, praesentium reiciendis beatae ad accusantium. </p>
+                    <div class="card-body text-about">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, aliquid?
+                            Sed perferendis non repudiandae nesciunt, quibusdam ratione harum quasi quia fugit! Eaque
+                            necessitatibus repellat explicabo minima facilis soluta molestias nesciunt. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit. Consequuntur quod dolorum eos autem! Alias,
+                            fuga. Explicabo ratione asperiores soluta ut aut cumque vero placeat, sapiente, praesentium
+                            reiciendis beatae ad accusantium. </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!--Experiencia-->
+    <section class="container" id="experience">
+        <div class="row">
+            <div class="col mt-4">
+                <h2 class="card-title mx-auto display-4 title2-herosec text-center">MI EXPERIENCIA</h2>
+            </div>
+        </div>
+        <div class="row my-5 py-5">
+            <div class="col">
+                <div class="card-deck">
+                    <div class="card border-0 text-center">
+                        <i class="fas fa-pen-nib display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-program h2">Ilustrator</h5>
+                            <p class="card-text text-year h3">2014-2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-deck">
+                    <div class="card border-0 text-center">
+                        <i class="fas fa-layer-group display-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-program h2">Photoshop</h5>
+                            <p class="card-text text-year h3">2014-2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Mis trabajos-->
+    <section id="past-works" class="container-fluid py-5 my-5 bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="card-title mx-auto display-4 title2-herosec text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>   
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card-deck">
+                        <div class="card border-0 rounded-bottom">
+                          <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet&coffe">
+                          <div class="card-body">
+                            <h5 class="card-title">Meet&Coffe</h5>
+                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                          </div>
+                        </div>
+                        <div class="card border-0 rounded-bottom">
+                            <img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana page">
+                            <div class="card-body">
+                              <h5 class="card-title">Iguana Page</h5>
+                              <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                            </div>
+                          </div>
+                          <div class="card border-0 rounded-bottom">
+                            <img src="assets/img/suricata.png" class="card-img-top" alt="suricata">
+                            <div class="card-body">
+                              <h5 class="card-title">Suricata</h5>
+                              <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card-deck">
+                        <div class="card border-0 rounded-bottom">
+                          <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon">
+                          <div class="card-body">
+                            <h5 class="card-title">Cuppon</h5>
+                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                          </div>
+                        </div>
+                        <div class="card border-0 rounded-bottom">
+                            <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
+                            <div class="card-body">
+                              <h5 class="card-title">Ricomida</h5>
+                              <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                            </div>
+                          </div>
+                          <div class="card border-0 rounded-bottom">
+                            <img src="assets/img/dmark.png" class="card-img-top" alt="dmark">
+                            <div class="card-body">
+                              <h5 class="card-title">DMark</h5>
+                              <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Formulario Typeform-->
+    <section id="contact">
+        <div>
+            <h2 class="card-title mx-auto display-4 title2-herosec text-center">CONTÁCTO</h2>  
+        </div>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/k98H5p6s" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=k98H5p6s&utm_source=typeform.com-01EQ27SWHCRHDBZPGSYXV07QD3-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+    </section>
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
