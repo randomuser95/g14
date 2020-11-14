@@ -36,3 +36,10 @@
     height: 50rem;
     object-fit: cover;
 }
+.line{
+    width: 12rem;
+    height: 0.125rem;
+}
+.line-herosec{
+    height: 0.125rem; 
+}
