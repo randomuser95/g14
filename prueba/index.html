@@ -27,7 +27,7 @@
     <!--Barra de Navegación-->
     <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-info fixed-top">
         <div class="container">
-            <a class="navbar-brand title-nav py-0 mx-3" href="../prueba/index.html">E</a>
+            <a id="navbar" class="navbar-brand title-nav py-0 mx-3" href="../prueba/index.html">E</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="row my-5 py-5">
-            <div class="col">
+            <div class="col-md-6">
                 <div class="card-deck">
                     <div class="card border-0 text-center">
                         <i class="fas fa-pen-nib display-1 text-info"></i>
@@ -112,7 +112,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6">
                 <div class="card-deck">
                     <div class="card border-0 text-center">
                         <i class="fas fa-layer-group display-1 text-info"></i>
@@ -133,6 +133,10 @@
                 <div class="col">
                     <h2 class="card-title mx-auto display-4 title2-herosec text-center text-white">MIS ÚLTIMOS TRABAJOS</h2>
                     <hr class="bg-white line">
+                    <div class="float-right">
+                        <button id="botonMeet" type="button" class="btn btn-light page-button text-info">Ver descripción</button>
+                    </div>
+                    
                 </div>
             </div>
             <div class="row my-5">
@@ -141,8 +145,8 @@
                         <div class="card border-0 rounded-bottom">
                             <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet&coffe">
                             <div class="card-body">
-                                <h5 class="card-title page-title">Meet&Coffe</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <h5 class="card-title">Meet&Coffe</h5>
+                                <p id="meet" class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
@@ -151,7 +155,7 @@
                             <img src="assets/img/iguana_page.png" class="card-img-top" alt="iguana page">
                             <div class="card-body">
                                 <h5 class="card-title page-title">Iguana Page</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <p class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
@@ -160,7 +164,7 @@
                             <img src="assets/img/suricata.png" class="card-img-top" alt="suricata">
                             <div class="card-body">
                                 <h5 class="card-title page-title">Suricata</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <p class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
@@ -175,7 +179,7 @@
                             <img src="assets/img/cuppon.png" class="card-img-top" alt="cuppon">
                             <div class="card-body">
                                 <h5 class="card-title page-title">Cuppon</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <p class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
@@ -184,7 +188,7 @@
                             <img src="assets/img/ricomida.png" class="card-img-top" alt="ricomida">
                             <div class="card-body">
                                 <h5 class="card-title page-title">Ricomida</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <p class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
@@ -193,7 +197,7 @@
                             <img src="assets/img/dmark.png" class="card-img-top" alt="dmark">
                             <div class="card-body">
                                 <h5 class="card-title page-title">DMark</h5>
-                                <p class="card-text page-desc">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                                <p class="card-text page-desc d-none">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
                                     scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis
                                     accumsan donec ridiculus.</p>
                             </div>
